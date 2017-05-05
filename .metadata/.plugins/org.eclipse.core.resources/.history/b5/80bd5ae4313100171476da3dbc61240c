@@ -1,0 +1,23 @@
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		String str = "This is the test String";
+		
+		String str1 = "Hello";
+		String str2 = "Hello";
+		String str3 = "Welcome";
+		
+		System.out.println(str.length());
+		System.out.println(str.charAt(2));
+		System.out.println(str.concat(" This is the appended String"));
+		System.out.println(str.contains("is"));
+		System.out.println(str.contains("a"));
+		System.out.println(str.startsWith("This"));
+		System.out.println(str.startsWith("Not"));
+		System.out.println(str.endsWith("String"));
+		System.out.println(str.endsWith("True"));
+		System.out.println(str1.equals(str2));
+		System.out.println(str.equals(str2));
+	}
+}

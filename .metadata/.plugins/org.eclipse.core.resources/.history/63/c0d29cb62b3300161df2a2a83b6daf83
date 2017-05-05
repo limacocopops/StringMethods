@@ -1,0 +1,31 @@
+package com.indeed.tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class IndeedJobSerarch {
+
+	public IndeedJobSerarch() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Create FireFox driver to drive the browser
+		WebDriver driver = new FirefoxDriver();
+		//Open Indeed homepage
+		driver.get("http://www.indeed.com/");
+		//Find what field and enter Selenium
+		driver.findElement(By.id("what")).sendKeys("Selenium");
+		
+		//Find location field and enter Bethesda, MD
+		
+		//Find FindJobs button and click on it
+		
+		//From job search results page, get page title and jobs count
+		
+	}
+
+}

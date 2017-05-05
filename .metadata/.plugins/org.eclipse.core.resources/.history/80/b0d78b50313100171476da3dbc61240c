@@ -1,0 +1,12 @@
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		String str = "This is the test String";
+		
+		System.out.println(str.length());
+		System.out.println(str.charAt(2));
+		System.out.println(str.concat(" This is the appended String"));
+		System.out.println(str.contains("is"));
+	}
+}
